@@ -10,6 +10,11 @@ public class App
 	{
 		return intVariable1 + intVariable2;
 	}
+
+	public int subtract2Numbers(int intVariable1, int intVariable2)
+	{
+		return intVariable1 - intVariable2;
+	}
 	
     public static void main( String[] args )
     {

@@ -38,4 +38,12 @@ public class AppTest
     	assertEquals(5, objApp.add2Numbers(2, 3));
         
     }
+
+    public void testApp2()
+    {
+    	App objApp = new App();
+    	
+    	assertEquals(2, objApp.subtract2Numbers(3, 1));
+        
+    }
 }
